@@ -156,7 +156,7 @@ const components = {
     const Component = useMDXComponent(code)
   
     return (
-      <div className="mdx">
+      <div className="mdx bg-purple-500">
         <Component components={components} />
       </div>
     )
