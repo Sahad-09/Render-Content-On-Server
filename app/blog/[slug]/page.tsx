@@ -10,10 +10,6 @@ interface PageProps {
   }
 }
 
-allDocs.map((value)=>{
-  console.log(value.title)
-})
-
 
 async function getDocFromParams(slug: string){
     const doc = allDocs.find((doc) => doc.slugAsParams === slug)
